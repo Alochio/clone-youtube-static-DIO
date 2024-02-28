@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 0 24px 0 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .icons{
+    width: 24px;
+    height: 24px;
+}
+
+header .container-esquerda{
+    display: flex;
+    gap: 24px;
+}
+
+header .container-esquerda #logo-youtube{
+    width: 90px;
+    height: 20px;
+}
+
+header .container-central{
+    width: 400px;
+    height: 40px; 
+}
+
+header .container-central #text-search {
+    width: calc(100% - 57px);
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+}
+
+header .container-central #button-search{
+    width: 57px;
+    height: 40px;
+    background-color: #F8F8F8;
+    position: absolute;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+}
+
+header .container-direita{
+    display: flex;
+    gap: 24px;
+}
+
+
+header .container-direita img:hover, .container-esquerda img:hover, .container-central img:hover{
+    cursor: pointer;
+}
